@@ -39,6 +39,8 @@ dependencies:
   pdf: ^3.10.4
   printing: ^5.11.0
   path_provider: ^2.0.15
+  time_picker_sheet: ^0.0.2+1
+  syncfusion_flutter_datepicker: ^22.1.39
 
 dev_dependencies:
   flutter_test:
