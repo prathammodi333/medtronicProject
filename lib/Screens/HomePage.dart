@@ -196,8 +196,7 @@ class _HomePageState extends State<HomePage> {
                           await File('$tempPath/$fileName.png').create();
                       await file.writeAsBytes(await pdf.save());
                       await Printing.layoutPdf(
-                          onLayout: (PdfPageFormat format) async =>
-                              pdf.save());
+                          onLayout: (PdfPageFormat format) async => pdf.save());
                     },
                     child: const Text(
                       "Print",

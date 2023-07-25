@@ -145,7 +145,7 @@ class _UpdateModeState extends State<UpdateMode> {
                                   isExpanded: true,
                                   onChanged: (newValue) {
                                     setState(() {
-                                      _selectedDrug = newValue!;
+                                      _selectedDrug = newValue! as String;
                                     });
                                   },
                                   items: drugList.map((value) {
