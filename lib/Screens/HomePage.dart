@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                     Padding(
                       padding:
                           EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-                      child: TableCell(child: Text("Lio")),
+                      child: TableCell(child: Text("Liorosole")),
                     ),
                     Padding(
                       padding:
